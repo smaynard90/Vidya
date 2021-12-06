@@ -1,0 +1,31 @@
+﻿@model Vidya.ViewModels.GameViewModel
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Games</h2>
+
+@if (Model.Games.Count == 0)
+{
+    <text>We don't have any games yet.</text>
+}
+else
+{
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th scope="col">Game</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var game in Model.Games)
+            {
+                <tr>
+                    <td>@game.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
