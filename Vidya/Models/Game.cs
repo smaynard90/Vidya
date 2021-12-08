@@ -11,7 +11,4 @@ namespace Vidya.Models
         public string Name { get; set; }
 
     }
-
-    // /games/random
-
 }
