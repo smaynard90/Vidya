@@ -227,10 +227,36 @@
     <Compile Include="Migrations\202112060517475_UpdateCustomer2Birthday.Designer.cs">
       <DependentUpon>202112060517475_UpdateCustomer2Birthday.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202112082354228_AddGenre.cs" />
+    <Compile Include="Migrations\202112082354228_AddGenre.Designer.cs">
+      <DependentUpon>202112082354228_AddGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202112090000545_PopulateGenres.cs" />
+    <Compile Include="Migrations\202112090000545_PopulateGenres.Designer.cs">
+      <DependentUpon>202112090000545_PopulateGenres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202112090046495_AddFieldsToGame.cs" />
+    <Compile Include="Migrations\202112090046495_AddFieldsToGame.Designer.cs">
+      <DependentUpon>202112090046495_AddFieldsToGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202112090047153_PopulateGenres1.cs" />
+    <Compile Include="Migrations\202112090047153_PopulateGenres1.Designer.cs">
+      <DependentUpon>202112090047153_PopulateGenres1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202112090130337_AddConsole.cs" />
+    <Compile Include="Migrations\202112090130337_AddConsole.Designer.cs">
+      <DependentUpon>202112090130337_AddConsole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202112090131501_PopulateConsoles.cs" />
+    <Compile Include="Migrations\202112090131501_PopulateConsoles.Designer.cs">
+      <DependentUpon>202112090131501_PopulateConsoles.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Console.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Game.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -294,11 +320,11 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\Games\Random.cshtml" />
     <Content Include="Views\Shared\_NavBar.cshtml" />
     <Content Include="Views\Games\Index.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
+    <Content Include="Views\Games\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -356,6 +382,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202112060517475_UpdateCustomer2Birthday.resx">
       <DependentUpon>202112060517475_UpdateCustomer2Birthday.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112082354228_AddGenre.resx">
+      <DependentUpon>202112082354228_AddGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112090000545_PopulateGenres.resx">
+      <DependentUpon>202112090000545_PopulateGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112090046495_AddFieldsToGame.resx">
+      <DependentUpon>202112090046495_AddFieldsToGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112090047153_PopulateGenres1.resx">
+      <DependentUpon>202112090047153_PopulateGenres1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112090130337_AddConsole.resx">
+      <DependentUpon>202112090130337_AddConsole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112090131501_PopulateConsoles.resx">
+      <DependentUpon>202112090131501_PopulateConsoles.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

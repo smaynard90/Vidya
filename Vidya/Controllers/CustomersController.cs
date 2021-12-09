@@ -5,7 +5,6 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Vidya.Models;
-using Vidya.ViewModels;
 
 namespace Vidya.Controllers
 {
